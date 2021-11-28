@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Db;
+namespace Db;
 
 class FetchData implements \ArrayAccess
 {

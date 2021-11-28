@@ -1,6 +1,6 @@
 <?php
 
-namespace src\Db;
+namespace Db;
 
 use Aigletter\Interfaces\Builder\DbInterface;
 use Aigletter\Interfaces\Builder\QueryInterface;

@@ -1,7 +1,7 @@
 <?php
 
-use src\Db\Db;
-use src\Db\QueryBuilder;
+
+use Db\QueryBuilder;
 
 ini_set('display_errors', 1);
 include "../vendor/autoload.php";
@@ -12,5 +12,5 @@ $builder->table('nova_ordered_carts')
     ->limit('10');
 $query = $builder->build();
 
-$db = new Db('','','','');
+$db = new Db('','','',''); //Необходимо указать данные подключения
 $result = $db->all($query);
